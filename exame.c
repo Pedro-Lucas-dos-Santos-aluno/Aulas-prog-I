@@ -13,18 +13,18 @@ int main(){
                        printf("aprovado sem exame %2.i", media);
                       }
         else if (media >= 4){
-                                 printf("o aluno vai para exame %2.i \n insira a nota do exame \n", media);
-                                 scanf("%i", &exame);
+                             printf("o aluno vai para exame %2.i \n insira a nota do exame \n", media);
+                             scanf("%i", &exame);
 
-                                 me = (exame + media)/2;
+                             me = (exame + media)/2;
 
-                                  if(me >= 5) {
-                                               printf("o aluno foi aprovado com exame %.2i \n", me);
-                                              }
-                                  else {
-                                        printf("o aluno foi reprovado com exame %.2i \n", me );
-                                       }
-                                }
+                             if(me >= 5) {
+                                          printf("o aluno foi aprovado com exame %.2i \n", me);
+                                         }
+                             else {
+                                   printf("o aluno foi reprovado com exame %.2i \n", me );
+                                   }
+                             }
       else if(media < 4){
                          printf("o aluno sera reprovado sem poder fazer exame: %2.i", media);
                         }
